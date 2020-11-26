@@ -67,7 +67,7 @@ class CpiKeepTracing extends Command {
   static flags = {
     username: flags.string({char: 'u', description: 'The (S-, C-, ...) username for basic authentication'}),
     url: flags.string({description: 'The tenant url in the format https://<some id>-tmn.hci.<some region>.hana.ondemand.com'}),
-    password: flags.string({char: 'p', description: 'You (S-, C-, ...) user\'s password for basic authentication (not stored anywhere)'}),
+    password: flags.string({char: 'p', description: 'Your (S-, C-, ...) user\'s password for basic authentication (not stored anywhere)'}),
     delay: flags.integer({char: 'd', default: 5 * 60, description: 'The delay between TRACE updates in seconds'}),
     filter: flags.string({char: 'f', description: 'Regular expression to filter affected iflows: Only matching iflows will be keept at TRACE'}),
   }
