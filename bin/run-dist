@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const command = require('../lib')
+const handleError = require('@oclif/errors/handle')
+
+command.run().catch(handleError)
