@@ -4,6 +4,13 @@
 
 ## Installation
 
+### Pre-built binaries
+
+If you do not want to install Node.js or rather not copy repositories,
+pre-built binaries are available on the
+[github repo's releases page](https://github.com/huberv/cpi-keep-tracing/releases/). Just put the binary to a folder where you'd like to invoke it from or to a folder in your system's [path variable](https://en.wikipedia.org/wiki/PATH_(variable)).
+
+The binaries have been created with the awesome [pkg](https://github.com/vercel/pkg) tool.
 
 ### Install from npm
 
